@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A starter project for all my VueJS projects",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "node buildScripts/srcServer.js"
   },
   "author": "Quinton Woodmansee",
