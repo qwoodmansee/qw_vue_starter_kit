@@ -1,20 +1,4 @@
-Skip to content
-Features
-Business
-Explore
-Marketplace
-Pricing
-This repository
-Search
-Sign in or Sign up
- Watch 2,367  Star 60,148  Fork 26,950 github/gitignore
- Code  Pull requests 162  Projects 0  Insights
-Branch: master Find file Copy pathgitignore/Node.gitignore
-7272fe4  15 days ago
-@rgbkrk rgbkrk Update Node.gitignore
-34 contributors @stuartpb @shiftkey @ro31337 @melonmanchan @Gouthamve @jucrouzet @cheddar @arcresu @sroberts @rgbkrk @rsolomo @peat @noinkling @MikeRalphson @shtr0m @kerimdzhanov @joreyaesh @jenrik @izuzak @iamsebastian @rdela @luiscoms @levrik @cyrbil @morrislaptop @indexzero and others
-RawBlameHistory
-62 lines (44 sloc)  914 Bytes
+
 # Logs
 logs
 *.log
@@ -76,15 +60,3 @@ typings/
 
 # next.js build output
 .next
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
