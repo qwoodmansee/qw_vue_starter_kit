@@ -1,5 +1,5 @@
 ## General
-  This is a fork of https://github.com/qwoodmansee/qw_js_starter_kit/ which sets up the environment with VueJS. Note that this is currently in active development and should not be used yet.
+  This is a fork of https://github.com/qwoodmansee/qw_js_starter_kit/ which sets up the environment with VueJS. **Note that this is currently in active development and should not be used yet.**
 
 ## Important decisions chosen:
   - Editor: VS Code with editorconfig extension
