@@ -1,6 +1,6 @@
 /*  This script generates mock data for local development,
     This way you don't have to point t an actual API,
-    but you can enjoy realistic, but randomized data, 
+    but you can enjoy realistic, but randomized data,
     and rapid page loads due to local, static data.
 */
 
@@ -15,7 +15,7 @@ jsf.extend('faker', function() {
     return require('faker')
 });
 
-const json = JSON.stringify(jsf(schema));
+const json = JSON.stringify(jsf(schema), null, 2);
 
 fs.writeFile("./src/api/db.json", json, function (err) {
     if (err) {

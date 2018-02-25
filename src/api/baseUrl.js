@@ -1,4 +1,6 @@
 export default function getBaseUrl() {
+
+  // when you have a real backend, point to it via the second variable of this sttatement
   return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/'
 }
 
