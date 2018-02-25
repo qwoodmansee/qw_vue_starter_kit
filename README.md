@@ -12,7 +12,7 @@ Important decisions chosen:
   - Continuous Integration: Travis-CI (for linux/OSX) and appveyor (for windows)
   - HTTP: Currently fetch, probably something different once Vue is in
     - Mocking: Json Server w/ Json Schema Faker
-  - Production Deployment: Github Pages - easy to change.
+  - Production Deployment: Surge
   
 
 Available scripts:
@@ -21,9 +21,6 @@ Available scripts:
   npm test: runs unit tests
   npm build: builds the project for deployment and starts a server so you can see it. Uses webpack.config.prod.js
 
-
-A note on deployment:
-  Currently the app builds (via npm run build) to a folder called /docs. This is the default folder which is served by GitHub Pages. If you'd like to change this, simply change the variable at the top of webpack.config.prod.js, change the "clean-dist" npm script to clean the correct directory, and change the distServer.js to serve the correct static files!
 
 Pointing to a real backend:
   Once you have a real backend set up, simply add the url to that backend to the src/api/baseUrl.js file's getBaseUrl function.

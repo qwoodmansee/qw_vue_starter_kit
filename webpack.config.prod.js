@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WebpackMd5Hash from 'webpack-md5-hash';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
-const deployFolderName = "docs" // this should be the same as the variable in package.json's clean-dist function
+const deployFolderName = "dist" // this should be the same as the variable in package.json's clean-dist function
 export default {
   devtool: 'source-map',
 
