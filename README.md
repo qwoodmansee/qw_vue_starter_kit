@@ -1,6 +1,6 @@
 
 
-Important decisions chosen:
+## Important decisions chosen:
   - Editor: VS Code with editorconfig extension
   - Package Management: npm
   - Security checks: Node security platform (npm run security-check)
@@ -15,12 +15,13 @@ Important decisions chosen:
   - Production Deployment: Surge
   
 
-Available scripts:
-  npm start: starts dev server, running security checks and tests on save
-  npm share: starts dev server with remote access via localtunnel
-  npm test: runs unit tests
-  npm build: builds the project for deployment and starts a server so you can see it. Uses webpack.config.prod.js
+## Available scripts:
+  - npm run start: starts dev server, running security checks and tests on save
+  - npm run share: starts dev server with remote access via localtunnel
+  - npm run test: runs unit tests
+  - npm run build: builds the project for deployment and starts a server so you can see it. Uses webpack.config.prod.js
+  - npm run deploy: deploys the site using Surge. Requires build to be run before.
 
 
-Pointing to a real backend:
+## Pointing to a real backend:
   Once you have a real backend set up, simply add the url to that backend to the src/api/baseUrl.js file's getBaseUrl function.
