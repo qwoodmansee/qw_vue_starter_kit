@@ -20,6 +20,7 @@
   - npm run start: starts dev server, running security checks and tests on save
   - npm run share: starts dev server with remote access via localtunnel
   - npm run test: runs unit tests
+  - npm run generate-mock-data: generates mock data using the generateMockData script and schema. Writes the file to /src/api/db.json
   - npm run build: builds the project for deployment and starts a server so you can see it. Uses webpack.config.prod.js
   - npm run deploy: deploys the site using Surge. Requires build to be run before.
 
